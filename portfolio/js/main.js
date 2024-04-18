@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 		navigation: true, /* 오른쪽에 각 페이지의 paging */
 		navigationPosition: 'left', /* 위치 */
-		navigationTooltips: ['Main','Infor', 'UI.UX', 'Edit Design', 'Finish'], /* 툴팁 */
+		navigationTooltips: ['Main','Infor', 'Portfolio', 'Finish'], /* 툴팁 */
 		showActiveTooltip: true, /* 현재 활성화된 페이지의 툴팁에 특정 클래스 주기 */
 
 		autoScrolling:true, /* 한페이지씩 스크롤 */

@@ -51,6 +51,10 @@
     display: flex;
     justify-content: space-between;
 }
+.info .inner .info_left .photo img {
+    width: 185px;
+    height: 230px;
+}
 .info .inner .info_left .txt h2 {
     font-size: 60px;
     font-weight: 800;
@@ -68,7 +72,7 @@
     font-weight: 800;
     float: left;
 }
-.info .inner .info_right  span {
+.info .inner .info_right span {
     display: block;
     margin: 0 0 40px 130px;
     line-height: 1.5;
@@ -98,4 +102,13 @@
     margin-left: 40px;
 }
 
-
+.finish h2 {
+    font-size: 90px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 100px;
+}
+.finish p {
+    margin-top: 50px;
+    text-align: center;
+}
