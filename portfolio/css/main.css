@@ -51,36 +51,11 @@ img.show {
     font-size: 40px;
 }
 
-.info .inner {
-    display: flex;
-    justify-content: space-between;
+.info {
+    background-color: rgba(244, 244, 244, 0.5);
+    overflow: hidden;
 }
-.info .inner .info_left .photo img {
-    width: 185px;
-    height: 230px;
-}
-.info .inner .info_left .txt h2 {
-    font-size: 60px;
-    font-weight: 800;
-    margin: 57px 0 48px 0;
-}
-.info .inner .info_left .txt p {
-    font-size: 18px;
-    line-height: 1.4;
-}
-.info .inner .info_right {
-    margin: 100px 200px 0 0;
-}
-.info .inner .info_right strong {
-    display: block;
-    font-weight: 800;
-    float: left;
-}
-.info .inner .info_right span {
-    display: block;
-    margin: 0 0 40px 130px;
-    line-height: 1.5;
-}
+
 .web .web_tit {
     padding: 0 200px;
 }
@@ -105,12 +80,18 @@ img.show {
     font-size: 30px;
     margin-left: 40px;
 }
+.web .list ul li:nth-child(4) {
+    color: #999;
+}
 
+.finish {
+    background: url(../imges/main/finish.png) no-repeat center center / cover;
+}
 .finish h2 {
     font-size: 90px;
     font-weight: 800;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 .finish p {
     margin-top: 50px;
