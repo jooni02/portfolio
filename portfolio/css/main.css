@@ -19,6 +19,10 @@
     font-weight: 800;
 }
 
+img.show {
+    display: none;
+}
+
 .web, .edit_design, .finish h2 {
     font-size: 90px;
     font-weight: 800;
