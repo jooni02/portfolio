@@ -31,6 +31,7 @@
     font-size: 28px;
     font-weight: 800;
     margin: 0 0 20px 0;
+    line-height: 1.22;
 }
 .intro .inner .txt p {
     font-size: 18px;
@@ -38,12 +39,22 @@
 }
 .intro .inner .txt h2::after {
     position: absolute;
-    left: 90px;
-    top: 22px;
-    width: 430px;
+    left: 212px;
+    top: 25px;
+    width: 387px;
     height: 10px;
     z-index: -1;
-    background-color: #FF0000;
+    background-color: #FD966A;
+    content: "";
+}
+.intro .inner .txt h2 span::after {
+    position: absolute;
+    left: 88px;
+    top: 59px;
+    width: 200px;
+    height: 10px;
+    z-index: -1;
+    background-color: #FD966A;
     content: "";
 }
 
@@ -404,6 +415,9 @@
     font-size: 30px;
     font-weight: 800;
     margin: 31px 0 68px 0;
+    line-height: 1.4;
+    letter-spacing : 0.02em;
+
 }
 .contact .more {
     position: relative;
