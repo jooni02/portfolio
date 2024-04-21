@@ -83,6 +83,9 @@ img.show {
 .web .list ul li:nth-child(4) {
     color: #999;
 }
+/*마우스 오버*/
+
+
 
 .finish {
     background: url(../imges/main/finish.png) no-repeat center center / cover;

@@ -19,6 +19,7 @@
 .intro .inner {
     display: flex;
     margin: 180px 130px 214px 38%;
+    position: relative;
 }
 .intro .inner .sub_txt {
     font-size: 22px;
@@ -34,6 +35,16 @@
 .intro .inner .txt p {
     font-size: 18px;
     line-height: 1.5;
+}
+.intro .inner .txt h2::after {
+    position: absolute;
+    left: 90px;
+    top: 22px;
+    width: 430px;
+    height: 10px;
+    z-index: -1;
+    background-color: #FF0000;
+    content: "";
 }
 
 
