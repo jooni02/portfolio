@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    const myFullpage = new fullpage('#fullpage', {  /* html에서 페이지 전체를 감싸는 요소 */
+	const myFullpage = new fullpage('#fullpage', {  /* html에서 페이지 전체를 감싸는 요소 */
 
 		navigation: true, /* 오른쪽에 각 페이지의 paging */
 		navigationPosition: 'left', /* 위치 */
@@ -23,4 +23,6 @@ $(document).ready(function(){
 
 		responsiveWidth: 768 /* fullpage를 적용시키지 않을 모바일 사이즈 */
 	});
+
+	let
 }) ////document.ready

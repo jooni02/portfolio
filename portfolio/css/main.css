@@ -33,21 +33,22 @@ img.show {
 }
 .main .main_tit {
     font-weight: 800;
-    margin-top: 120px;
+    margin-top: 100px;
 }
 .main .main_tit h1 {
     font-size: 80px;
 }
-.main .main_tit span.list {
+.main .main_tit .list span {
     display: flex;
     font-size: 60px;
 }
-.main .main_tit span.txt {
+.main .main_tit .txt span {
     display: flex;
     justify-content: space-between;
-    padding: 200px 0 20px 0;
+    padding: 100px 0 20px 0;
+    font-size: 20px;
 }
-.main .main_tit span.txt strong{
+.main .main_tit .txt span strong{
     font-size: 40px;
 }
 
@@ -80,6 +81,10 @@ img.show {
     font-size: 30px;
     margin-left: 40px;
 }
+.web .list ul li a:hover h2,
+.web .list ul li a:hover h2 strong {
+    color: red;
+}
 .web .list ul li:nth-child(4) {
     color: #999;
 }
@@ -99,4 +104,21 @@ img.show {
 .finish p {
     margin-top: 50px;
     text-align: center;
+}
+
+/*애니메이션 작용*/
+.main.active .list {
+    overflow: hidden;
+    height: 72px;
+}
+.main.active .list span {
+    
+    animation-name: sec03_ani;
+    animation-duration: 1.5s; /* 동작 시간*/
+    animation-iteration-count: 1; /* 반복 횟수 */
+    animation-fill-mode: forwards /* 애니메이션 종료 후 상태 (forwards - 100% 유지) */
+}
+@keyframes sec03_ani { 
+	0% { transform: translate(0, 1.2em) }
+	100% { transform: translate(0, 0) }
 }
