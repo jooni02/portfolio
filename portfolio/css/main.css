@@ -87,11 +87,11 @@ img.show {
 }
 
 /*기타디자인 */
-.web .list ul li:nth-child(5) a:hover h2,
-.web .list ul li:nth-child(5) a:hover h2 strong {
+.web .list ul li:nth-child(4) a:hover h2,
+.web .list ul li:nth-child(4) a:hover h2 strong {
     color: #999;
 }
-.web .list ul li:nth-child(5) {
+.web .list ul li:nth-child(4) {
     color: #999;
 }
 
