@@ -61,7 +61,7 @@ img.show {
     padding: 0 200px;
 }
 .web .web_tit>h2 {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .web .list ul li {
     border-bottom: 1px solid #D9D9D9;
@@ -71,10 +71,10 @@ img.show {
 }
 .web .list ul li a {
     display: block;
-    padding: 45px 0;
+    padding: 30px 0;
 }
 .web .list ul li a h2 {
-    font-size: 50px;
+    font-size: 45px;
     padding-left: 10px;
 }
 .web .list ul li a h2 strong {
@@ -87,11 +87,11 @@ img.show {
 }
 
 /*기타디자인 */
-.web .list ul li:nth-child(4) a:hover h2,
-.web .list ul li:nth-child(4) a:hover h2 strong {
+.web .list ul li:nth-child(5) a:hover h2,
+.web .list ul li:nth-child(5) a:hover h2 strong {
     color: #999;
 }
-.web .list ul li:nth-child(4) {
+.web .list ul li:nth-child(5) {
     color: #999;
 }
 

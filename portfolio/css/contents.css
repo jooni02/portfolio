@@ -34,7 +34,7 @@ header .gnb .inner ul li.site a::after {
     content: "";
 } 
 header .gnb .inner ul li {
-    margin: 0 0 0 50px;
+    margin: 0 0 0 40px;
 }
 header .gnb .inner ul li a {
     display: block;
