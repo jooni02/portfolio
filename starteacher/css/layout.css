@@ -73,9 +73,24 @@ footer .wrapper {
     display: flex;
     justify-content: space-between;
 }
+footer .f_left {
+    font-size: 16px;
+}
 footer .f_left .f_nav ul {
     display: flex;
-    justify-content: center;
+}
+footer .f_left .f_nav ul li {
+    margin: 0 40px 20px 0;
+}
+footer .f_left .f_nav ul li a span {
+    font-weight: 800;
+}
+footer .f_left .f_txt span {
+    display: block;
+}
+
+footer .f_left .f_txt .copyright {
+    margin-top: 30px;
 }
 footer .f_rihgt {
     display: flex;
